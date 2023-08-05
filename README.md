@@ -18,9 +18,6 @@ DOI = {10.3390/rs15153855}
 
 - Run test.m to see how used the functions.
 
-- Due to the large size of the hyperspectral image, I was unable to upload it. However, you can download it (Indian Pines) here: [https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes#Pavia_Centre_scene].
-
-
 ## Acknowledgements
 This project utilizes the [Open Source MATLAB Hyperspectral Toolbox] [https://github.com/isaacgerg/matlabHyperspectralToolbox] developed by [Isaac Gerg] [https://github.com/isaacgerg]. This toolbox played a crucial role in implementing my codes within this project.
 

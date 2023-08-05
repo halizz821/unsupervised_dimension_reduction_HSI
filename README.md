@@ -22,7 +22,6 @@ DOI = {10.3390/rs15153855}
 
 
 ## Acknowledgements
-This project utilizes the [Open Source MATLAB Hyperspectral Toolbox] ([(https://github.com/isaacgerg/matlabHyperspectralToolbox)]) developed by [Isaac Gerg] ([https://github.com/isaacgerg]). This toolbox played a crucial role in implementing my codes within this project.
+This project utilizes the [Open Source MATLAB Hyperspectral Toolbox] [https://github.com/isaacgerg/matlabHyperspectralToolbox] developed by [Isaac Gerg] [https://github.com/isaacgerg]. This toolbox played a crucial role in implementing my codes within this project.
 
 
-The source code will be uploaded soon.

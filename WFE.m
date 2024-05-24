@@ -71,9 +71,9 @@ function [varargout]=hysime(varargin);
 %        Ek matrix which columns are the eigenvectors that span 
 %           the signal subspace
 %
-%  Copyright: José Nascimento (zen@isel.pt)
+%  Copyright: JosÃ© Nascimento (zen@isel.pt)
 %             & 
-%             José Bioucas-Dias (bioucas@lx.it.pt)
+%             JosÃ© Bioucas-Dias (bioucas@lx.it.pt)
 %
 %  For any comments contact the authors
 
@@ -125,12 +125,12 @@ Py_sort =  trace(Ry) - cumsum(Py(ind_asc));
 Pn_sort = 2*cumsum(Pn(ind_asc));
 cost_F_sort = Py_sort + Pn_sort;
 
-indice=1:50;
-figure
-   set(gca,'FontSize',12,'FontName','times new roman')
-   semilogy(indice,cost_F_sort(indice),'-',indice,Py_sort(indice),':',indice,Pn_sort(indice),'-.', 'Linewidth',2,'markersize',5)
-   xlabel('k');ylabel('mse(k)');title('HySime')
-   legend('Mean Squared Error','Projection Error','Noise Power')
+% indice=1:50;
+%figure
+%   set(gca,'FontSize',12,'FontName','times new roman')
+%   semilogy(indice,cost_F_sort(indice),'-',indice,Py_sort(indice),':',indice,Pn_sort(indice),'-.', 'Linewidth',2,'markersize',5)
+%   xlabel('k');ylabel('mse(k)');title('HySime')
+%  legend('Mean Squared Error','Projection Error','Noise Power')
 
 
 varargout(1) = {kf};
@@ -159,9 +159,9 @@ function [varargout]=estNoise(varargin);
 %    w is the noise estimates for every pixel (LxN)
 %    Rw is the noise correlation matrix estimates (LxL)
 %
-%  Copyright: José Nascimento (zen@isel.pt)
+%  Copyright: JosÃ© Nascimento (zen@isel.pt)
 %             & 
-%             José Bioucas-Dias (bioucas@lx.it.pt)
+%             JosÃ© Bioucas-Dias (bioucas@lx.it.pt)
 %
 %  For any comments contact the authors
 
@@ -252,8 +252,8 @@ function [ U, indicies, snrEstimate ] = hyperVca( M, q )
 %   snrEstimate - SNR estimate of data [dB]
 %
 % References
-%   J. M. P. Nascimento and J. M. B. Dias, “Vertex component analysis: A 
-% fast algorithm to unmix hyperspectral data,” IEEE Transactions on 
+%   J. M. P. Nascimento and J. M. B. Dias, Â“Vertex component analysis: A 
+% fast algorithm to unmix hyperspectral data,Â” IEEE Transactions on 
 % Geoscience and Remote Sensing, vol. 43, no. 4, apr 2005.
 
 %Initialization.
